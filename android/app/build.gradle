@@ -107,9 +107,12 @@ android {
 dependencies {
     // The version of react-native is set by the React Native Gradle Plugin
     implementation("com.facebook.react:react-android")
+    implementation 'co.omise:omise-android:4.3.1'
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.0-RC")
 
     if (hermesEnabled.toBoolean()) {
         implementation("com.facebook.react:hermes-android")
+
     } else {
         implementation jscFlavor
     }
