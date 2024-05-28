@@ -1,5 +1,8 @@
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
+
+[![OMISE Payment](https://i3.ytimg.com/vi/-dex8kEZagg/maxresdefault.jpg)](https://www.youtube.com/watch?v=-dex8kEZagg "OMISE Payment")
+
 # Getting Started
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
@@ -35,11 +38,16 @@ yarn android
 ### For iOS
 
 ```bash
+
+# OR using Yarn
+cd ios & pod install
+
 # using npm
 npm run ios
 
 # OR using Yarn
 yarn ios
+
 ```
 
 If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
